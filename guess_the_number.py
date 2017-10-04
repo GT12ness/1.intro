@@ -4,6 +4,7 @@ from builtins import input  # needed for python 2
 
 
 guesses_taken = 0
+guess = -1
 
 print('Hello! What is your name?')
 name = input()
@@ -16,7 +17,7 @@ while guesses_taken < 6:
     guess = input()
     guess = int(guess)
 
-    guesses_taken = guesses_taken + 1
+    guesses_taken += 1
 
     if guess < number:
         print('Your guess is too low.')  # There are eight spaces in front of print.
@@ -31,6 +32,6 @@ while guesses_taken < 6:
         guesses_taken = str(guesses_taken)
         print('Good job, ' + name + '! You guessed my number in ' + guesses_taken + ' guesses!')
 
-    if guess != number:
-        number = str(number)
-        print('Nope. The number I was thinking of was ' + number)
+if guess != number:
+    number = str(number)
+    print('Nope. The number I was thinking of was ' + number)
