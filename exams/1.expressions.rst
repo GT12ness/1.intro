@@ -1,0 +1,19 @@
+Test
+====
+
+Tento test má len informatívny charakter.
+Jeho účelom je zistiť, čo si pamätáte z minulej hodiny - nebude hodnotený.
+
+1. Napíšte výslednú hodnotu nasledujúcich výrazov
+
+  a.  ``1 + 1``
+  b.  ``2 - 1.0``
+  c.  ``4 / 2``
+  d.  ``1 != 1.0``
+  e.  ``3 or True``
+
+2. (bonus) Čo je v premennej ``a`` na konci programu?::
+
+    a = 2
+    a *= 'bcd'
+
