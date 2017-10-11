@@ -6,8 +6,6 @@ Slack
 -----
 Ako komunikačný kanál (chat) budeme používať https://gt12ness.slack.com/
 
-pripste svoj email: https://docs.google.com/spreadsheets/d/1kdrmMbZOSQbQ2I-_aPSLF1uyd7i1sw1FFEdrUebBcKw/edit?usp=sharing
-
 Literatúra
 ----------
 - Invent with python: http://inventwithpython.com/index.html
