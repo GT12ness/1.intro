@@ -93,3 +93,125 @@ IDLE (python GUI)
 - open IDLE (python GUI) (``start -> <type "python"> -> select it``)
 - open ``hello.py`` (using top menu ``file -> open -> <find and select "C:\\users\my documents\gt12ness\hello.py">``)
 - run opened script (``F5`` or ``run -> Run Module``)
+
+
+
+Flow control
+############
+In order to loop and branch our programs we use some flow control statements.
+This chapter is almost completely copy-pasted from https://docs.python.org/3/tutorial/controlflow.html
+
+
+Syntax
+======
+To mark block of code as part of branch or cycle, python requires both
+
+1. the colon ``:`` at the end of the flow control statement
+2. indentation of following code block (any indentation is sufficient, tab or 4 spaces are preferred)
+
+Otherwise, syntax error will be raised by interpreter. Notice this syntax on following examples
+
+if statements
+=============
+Perhaps the most well-known statement type is the if statement. For example:
+
+>>> x = int(input("Please enter an integer: "))
+Please enter an integer: 42
+>>> if x < 0:
+...     x = 0
+...     print('Negative changed to zero')
+... elif x == 0:
+...     print('Zero')
+... elif x == 1:
+...     print('Single')
+... else:
+...     print('More')
+...
+More
+
+
+There can be zero or more elif parts, and the else part is optional.
+The keyword ‘elif’ is short for ‘else if’, and is useful to avoid excessive indentation.
+An if … elif … elif … sequence is a substitute for the switch or case statements found in other languages.
+
+while statements
+================
+The while loop executes as long as the condition (here: b < 10) remains true.
+In Python, like in C, any non-zero integer value is true; zero is false.
+The condition may also be a string or list value, in fact any sequence;
+anything with a non-zero length is true, empty sequences are false.
+
+>>> a, b = 0, 1
+>>> while b < 1000:
+...     print(b, end=',')
+...     a, b = b, a+b
+...
+1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,
+
+
+break and continue Statements, and else Clauses on Loops
+========================================================
+The break statement, like in C, breaks out of the innermost enclosing for or while loop.
+
+Loop statements may have an else clause; it is executed when the loop terminates through
+exhaustion of the list (with for) or when the condition becomes false (with while),
+but not when the loop is terminated by a break statement.
+This is exemplified by the following loop, which searches for prime numbers:
+
+>>>
+>>> for n in range(2, 10):
+...     for x in range(2, n):
+...         if n % x == 0:
+...             print(n, 'equals', x, '*', n//x)
+...             break
+...     else:
+...         # loop fell through without finding a factor
+...         print(n, 'is a prime number')
+...
+2 is a prime number
+3 is a prime number
+4 equals 2 * 2
+5 is a prime number
+6 equals 2 * 3
+7 is a prime number
+8 equals 2 * 4
+9 equals 3 * 3
+(Yes, this is the correct code. Look closely: the else clause belongs to the for loop, not the if statement.)
+
+When used with a loop, the else clause has more in common with the else clause of a try statement than it does that of if statements: a try statement’s else clause runs when no exception occurs, and a loop’s else clause runs when no break occurs. For more on the try statement and exceptions, see Handling Exceptions.
+
+The continue statement, also borrowed from C, continues with the next iteration of the loop:
+
+>>>
+>>> for num in range(2, 10):
+...     if num % 2 == 0:
+...         print("Found an even number", num)
+...         continue
+...     print("Found a number", num)
+Found an even number 2
+Found a number 3
+Found an even number 4
+Found a number 5
+Found an even number 6
+Found a number 7
+Found an even number 8
+Found a number 9
+4.5. pass Statements
+The pass statement does nothing. It can be used when a statement is required syntactically but the program requires no action. For example:
+
+>>>
+>>> while True:
+...     pass  # Busy-wait for keyboard interrupt (Ctrl+C)
+...
+This is commonly used for creating minimal classes:
+
+>>>
+>>> class MyEmptyClass:
+...     pass
+...
+Another place pass can be used is as a place-holder for a function or conditional body when you are working on new code, allowing you to keep thinking at a more abstract level. The pass is silently ignored:
+
+>>>
+>>> def initlog(*args):
+...     pass   # Remember to implement this!
+...

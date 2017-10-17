@@ -8,6 +8,7 @@ Ako komunikačný kanál (chat) budeme používať https://gt12ness.slack.com/
 
 Literatúra
 ----------
+- Python docs: https://docs.python.org/3
 - Invent with python: http://inventwithpython.com/index.html
 - PythonLearn: http://www.pythonlearn.com/html-270/
 - Intro to python: http://introtopython.org/
