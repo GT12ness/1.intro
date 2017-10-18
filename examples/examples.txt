@@ -1,0 +1,8 @@
+1. napiste program v pythone
+
+- vypisete text: aka je vonku teplota?
+- zadate vstup (cislo)
+- vyhodnotite ak je teplota vyssie ako 25 tak vypiste: "zober si tricko. "
+                ak nie vypiste:  "Zobrer si aj sveter. "
+
+- na konci vypiste: "Mozes ist vonku"
