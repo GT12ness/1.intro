@@ -77,7 +77,7 @@ while True:
 6. Vypiste len parne cisla, hint: pouzite continue a % (zvysok po deleni), vypiste len cisla mensie ako 15
 """
 # Prints out only odd numbers - 1,3,5,7,9 - len parne - pouzitie continue
-for x in range(10):
+for x in range(15):
     # Check if x is even
     if x % 2 == 0:
         continue
