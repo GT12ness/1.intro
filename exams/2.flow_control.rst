@@ -20,9 +20,9 @@ Jeho účelom je zistiť, čo si pamätáte z minulej hodiny - nebude hodnotený
         print(3)
 
 
-2. Na ktorom riadku sa vyhodí chyba ak sa pokúsime spusiť nasledovný program?
 
-    .. code-block:: python
+.. highlight:: python
+2. Na ktorom riadku sa vyhodí chyba ak sa pokúsime spusiť nasledovný program?::
 
         a = 0
         b = 1
@@ -32,9 +32,7 @@ Jeho účelom je zistiť, čo si pamätáte z minulej hodiny - nebude hodnotený
             else
                 b -= 1
 
-3. (bonus) Doplnte miesto ``???`` aby program vypýsal postupne 1,3,5,7
-
-    .. code-block:: python
+3. (bonus) Doplnte miesto ``???`` aby program vypýsal postupne 1,3,5,7::
 
         a = 1
         while True:
