@@ -6,3 +6,9 @@
                 ak nie vypiste:  "Zobrer si aj sveter. "
 
 - na konci vypiste: "Mozes ist vonku"
+
+
+2. Napiste program v pyhone, ktory po zadani poctu bodov vypise znamku.
+ Max pocet bodov za test je 100, napiste metodu ktora vyhodnoti vysledky kde
+ A >= 90, B >= 80, C >= 70, >= 60, E >= 50 inak Fx
+- pouzite elif
