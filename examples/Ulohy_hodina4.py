@@ -74,7 +74,7 @@ while True:
         break
 
 """
-6. Vypiste len parne cisla, pouzitim while, continue a % , len cisla mensie ako 15
+6. Vypiste len parne cisla, hint: pouzite continue a % (zvysok po deleni), vypiste len cisla mensie ako 15
 """
 # Prints out only odd numbers - 1,3,5,7,9 - len parne - pouzitie continue
 for x in range(10):
