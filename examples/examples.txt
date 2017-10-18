@@ -24,3 +24,12 @@ print('Get some exercise outside.')
 
 
 3. Vypiste cisla 0,1,2,3,4, pouzitim for
+
+4. Vypiste cisla 0,1,2,3,4, pouzitim while
+hint: pouzite pocitadlo
+
+5. Vypiste cisla 0,1,2,3,4, pouzitim while a break
+hint: pouzite pocitadlo
+
+
+6. Vypiste len parne cisla, pouzitim while, continue a % , len cisla mensie ako 15
