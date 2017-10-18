@@ -176,6 +176,7 @@ This is exemplified by the following loop, which searches for prime numbers:
 7 is a prime number
 8 equals 2 * 4
 9 equals 3 * 3
+
 (Yes, this is the correct code. Look closely: the else clause belongs to the for loop, not the if statement.)
 
 When used with a loop, the else clause has more in common with the else clause of a try statement than it does that of if statements: a try statement’s else clause runs when no exception occurs, and a loop’s else clause runs when no break occurs. For more on the try statement and exceptions, see Handling Exceptions.
@@ -196,7 +197,9 @@ Found an even number 6
 Found a number 7
 Found an even number 8
 Found a number 9
-4.5. pass Statements
+
+pass Statements
+===============
 The pass statement does nothing. It can be used when a statement is required syntactically but the program requires no action. For example:
 
 >>>
@@ -215,3 +218,4 @@ Another place pass can be used is as a place-holder for a function or conditiona
 >>> def initlog(*args):
 ...     pass   # Remember to implement this!
 ...
+
