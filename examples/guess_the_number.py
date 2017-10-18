@@ -1,5 +1,5 @@
 # This is a guess the number game.
-import random
+from random import randint
 from builtins import input  # needed for python 2
 
 
@@ -9,24 +9,24 @@ guess = -1
 print('Hello! What is your name?')
 name = input()
 
-number = random.randint(1, 20)
+number = randint(1, 20)
 print('Well, ' + name + ', I am thinking of a number between 1 and 20.')
 
 while guesses_taken < 6:
     print('Take a guess.')  # There are four spaces in front of print.
-    guess = input()
-    guess = int(guess)
+    guess = int(input())
 
-    guesses_taken += 1
-
-    if guess < number:
-        print('Your guess is too low.')  # There are eight spaces in front of print.
-
-    if guess > number:
-        print('Your guess is too high.')
+    guesses_taken += 1  # guess_taken = guess_taken + 1
 
     if guess == number:
         break
+    
+    if guess < number:
+        print('Your guess is too low.')  # There are eight spaces in front of print.
+
+    else:
+        print('Your guess is too high.')
+
 
 if guess == number:
     print('Good job, ' + name + '! You guessed my number in ' + str(guesses_taken) + ' guesses!')
