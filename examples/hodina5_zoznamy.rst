@@ -17,36 +17,36 @@ ukazka::
     list3 = ["a", "b", "c", "d"]
 
 ulohy na precvicenie:
- - 1. access values in lists::
+access values in lists::
 
-      print("list1[0]: ", list[0])
-      print("list2[1:5]: ", list3[1])
-      print("list2[1:5]: ", list2[2:6])
+  print("list1[0]: ", list[0])
+  print("list2[1:5]: ", list3[1])
+  print("list2[1:5]: ", list2[2:6])
 
- - 2. Updating Lists - You can update single or multiple elements of lists::
+Updating Lists - You can update single or multiple elements of lists::
 
-      print("Value available at index 2 : ")
-      print(list[2])
-      list[2] = 2001
-      print("New value available at index 2 : ")
-      print(list[2])
+  print("Value available at index 2 : ")
+  print(list[2])
+  list[2] = 2001
+  print("New value available at index 2 : ")
+  print(list[2])
 
- - 2.1 add values to list - append()::
+add values to list - append()::
 
-    print("stary list:")
-    print(list)
-    list.append('python')
-    list.append(123)
-    print("novy list:")
-    print(list)
+  print("stary list:")
+  print(list)
+  list.append('python')
+  list.append(123)
+  print("novy list:")
+  print(list)
 
-  - 3. Delete List Elements::
+Delete List Elements::
 
-    print("stary list, pred zmazanim:")
-    print(list)
-    del list[2]
-    print("pozmazani hodnoty na indexe 2 : ")
-    print(list)
+  print("stary list, pred zmazanim:")
+  print(list)
+  del list[2]
+  print("pozmazani hodnoty na indexe 2 : ")
+  print(list)
 
 
 Lists respond to the + and * operators much like strings, the result is a new list, not a string.
