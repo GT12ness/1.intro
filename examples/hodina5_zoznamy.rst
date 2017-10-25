@@ -8,24 +8,22 @@ Python list - (zoznam)
     volny preklad: dolezite vec na zozname je ze jednotlive polozky zoznamu nemusia byt rovnakeho typu
 
     - Similar to string indices, list indices start at 0, and lists can be sliced, concatenated and so on
-    volny preklad: Podobne ako reťazcové indexy, zoznamy indexov začínajú od 0 a zoznamy môžu byť rozdelene,
-                    zreťazené a tak ďalej
+    volny preklad: Podobne ako reťazcové indexy, zoznamy indexov začínajú od 0 a zoznamy môžu byť rozdelene, zreťazené a tak ďalej
 
- - ukazka::
+ukazka::
 
     list = ['physics', 'chemistry', 1997, 2000]
     list2 = [1, 2, 3, 4, 5, 6, 7, 7, 9, 10]
     list3 = ["a", "b", "c", "d"]
 
-- ulohy na precvicenie:
+ulohy na precvicenie:
  - 1. access values in lists::
 
     print("list1[0]: ", list[0])
     print("list2[1:5]: ", list3[1])
     print("list2[1:5]: ", list2[2:6])
 
- - 2. Updating Lists
- - You can update single or multiple elements of lists::
+ - 2. Updating Lists - You can update single or multiple elements of lists::
 
     print("Value available at index 2 : ")
     print(list[2])
@@ -33,7 +31,7 @@ Python list - (zoznam)
     print("New value available at index 2 : ")
     print(list[2])
 
- - add values to list - append()::
+ - 2.1 add values to list - append()::
 
     print("stary list:")
     print(list)
@@ -51,10 +49,9 @@ Python list - (zoznam)
     print(list)
 
 
-- Lists respond to the + and * operators much like strings
-- the result is a new list, not a string.
+Lists respond to the + and * operators much like strings, the result is a new list, not a string.
 
-- example::
+example::
 
     L1 = [1, 2, 3]
     L2 = [4, 5, 6]
