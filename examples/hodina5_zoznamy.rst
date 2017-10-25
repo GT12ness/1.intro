@@ -19,17 +19,17 @@ ukazka::
 ulohy na precvicenie:
  - 1. access values in lists::
 
-    print("list1[0]: ", list[0])
-    print("list2[1:5]: ", list3[1])
-    print("list2[1:5]: ", list2[2:6])
+      print("list1[0]: ", list[0])
+      print("list2[1:5]: ", list3[1])
+      print("list2[1:5]: ", list2[2:6])
 
  - 2. Updating Lists - You can update single or multiple elements of lists::
 
-    print("Value available at index 2 : ")
-    print(list[2])
-    list[2] = 2001
-    print("New value available at index 2 : ")
-    print(list[2])
+      print("Value available at index 2 : ")
+      print(list[2])
+      list[2] = 2001
+      print("New value available at index 2 : ")
+      print(list[2])
 
  - 2.1 add values to list - append()::
 
