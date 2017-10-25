@@ -16,40 +16,38 @@ Literatúra
 - Dive into Python: http://www.diveintopython3.net/index.html
 
 
-Cvičenia
-========
+Práca na 25-10-2017
+===================
 
-1. Vytvorte premennú, ktorá obsahuje vetu: ``“We'll be there, Harry," said Ron``
-2.  Funguje, že operácie ``*`` an ``/`` majú prednosť pred ``+`` a ``-``?
-3. Zistite ako fungujú nasledujúce operátory: ``**``, ``%``, ``//``.
-4. Aký typ je výsledkom operácie
+Dnešnej hodiny sa nemôžeme zúčastniť, pretože sami máme vyučovanie v Ness-e (big data training).
+Ako náhradu pre vás máme nejakú prácu :)
+Budete objavovať další nástroj v ktorom sa dá efektívne pracovať s pythonon - Jupyter notebook.
+Ako prostredie použijeme cloud hostovaný microsoftom.
+Je veľmi dôležité aby sa po tejto hodine každý vedel prihlásiť a spustiť nejaký notebook.
 
-  - ``int + int``?
-  - ``float + int``?
-  - ``int * float``?
-  - ``int / int``?
-  - ``float / int``?
-  - ``str * float``?
-  - ``str * int``?
-  - ``str + str``?
-  - ``str + int``?
-  - ``bool * int?``?
-  - ``bool + float``?
-  - ``bool * str``?
-  - ``bool + bool``?
+- (registrujte sa a) prihláste sa na https://notebooks.azure.com/
+  na prihlásenie potrebujete microsoft konto,
 
-  **hint**: ``1`` je ``int``, ``1.0`` je ``float``, ``True`` je ``bool`` s rovnakou hodnotou.
-  No ``'1'`` je ``str``, ktorý sa nerovná ani jednej z predošlých hodnôt.
+  - ak nemáte microsoft konto, tak
 
-5. Čo robia ``|=`` a ``&=``?
-6. Nech, ``a, b`` sú typu ``int``. Zistite ako fungujú
+    - vpravo hore ``sign in``
+    - vpravo dole ``vytvoriť nové konto microsoft``
+    - prejdete registráciou
 
-  - ``a & b``,
-  - ``a | b``,
-  - ``a ^ b``,
-  - ``~ a``.
+  - ak už máte microsoft konto, tak vpravo hore ``sign in``
 
-  **Hint**: Existuje funkcia ``bin``, ktorá berie ``int`` a vracia jeho binárny zápis, napr. ``bin(3)  # 0b11``.
+- pozrite si https://notebooks.azure.com/m-stehlik/libraries/PythonDS101/html/NotebookAnatomy.ipynb tento
+  notebook vás uvedie do toho ako sa pracuje s Jupyter notebookmi
+
+  - aby ste s notebookom mohli pracovať naklonujte si ho kliknutím na ``clone``
+
+- prejdite na https://notebooks.azure.com/m-stehlik/libraries/PythonDS101
+  (môžete si naklonovať celú túto knižnicu alebo len notebooky, ktoré potrebujete)
+
+  - https://notebooks.azure.com/m-stehlik/libraries/PythonDS101/html/01.Basics.ipynb
+    zopakujte si základy pythonu a vyskúšajte si prácu s jupyter notebookom
+  - https://notebooks.azure.com/m-stehlik/libraries/PythonDS101/html/02.DataStructures.ipynb
+    skúste si pozrieť aj tento tutorál o dátových štruktúrach
 
 
 
