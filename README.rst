@@ -52,3 +52,9 @@ Je veľmi dôležité aby sa po tejto hodine každý vedel prihlásiť a spusti�
 
 
 
+Práca na 22-12-2017
+===================
+
+Notebook na klonovanie:
+https://notebooks.azure.com/m-stehlik/libraries/PythonDS101/html/025.Exercises.ipynb
+
