@@ -52,7 +52,7 @@ Je veľmi dôležité aby sa po tejto hodine každý vedel prihlásiť a spusti�
 
 
 
-Práca na 22-12-2017
+Práca na 22-11-2017
 ===================
 
 Notebook na klonovanie:
