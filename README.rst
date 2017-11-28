@@ -54,7 +54,14 @@ Je veľmi dôležité aby sa po tejto hodine každý vedel prihlásiť a spusti�
 
 Práca na 22-11-2017
 ===================
-
-Notebook na klonovanie:
 https://notebooks.azure.com/m-stehlik/libraries/PythonDS101/html/025.Exercises.ipynb
 
+Práca na 30-11-2017
+===================
+Na minulej hodine sa nám nepodarilo prelúskať cez všetky úlohy a taktiež dosť veľa vás chýbalo. 
+Preto sme rozšírili notebook o viacero návodných úloh, ktoré sa oplatí si prejsť a následne dokončiť
+ostatné úlohy.
+https://notebooks.azure.com/m-stehlik/libraries/PythonDS101/html/025.Exercises-extended.ipynb
+
+Následne budeme pokračovať v 
+https://notebooks.azure.com/m-stehlik/libraries/PythonDS101/html/02.DataStructures.ipynb
